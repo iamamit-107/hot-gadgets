@@ -21,6 +21,11 @@ section {
   color: #1f1f1f;
   font-weight: 500;
 }
+.slider {
+  background-image: url("./images/bg2.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
 .slider p {
   width: 488px;
   height: 127px;
@@ -28,6 +33,12 @@ section {
   line-height: 35px;
   color: #707070;
   font-weight: 300;
+}
+.img-bg {
+  background-image: url("./images/best-product.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .buy-now {
@@ -138,7 +149,10 @@ section {
   background-repeat: no-repeat;
   padding: 50px 0;
 }
-
+.contact-us form {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 footer li {
   list-style: none;
 }
