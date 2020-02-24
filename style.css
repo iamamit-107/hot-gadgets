@@ -1,0 +1,161 @@
+body {
+  font-family: "Poppins";
+}
+
+section {
+  padding-bottom: 100px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #707070;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ff9c35;
+}
+
+.carousel-item h1 {
+  font-size: 41px;
+  color: #1f1f1f;
+  font-weight: 500;
+}
+.slider p {
+  width: 488px;
+  height: 127px;
+  font-size: 18px;
+  line-height: 35px;
+  color: #707070;
+  font-weight: 300;
+}
+
+.buy-now {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  outline: none !important;
+  text-decoration: none;
+  border-radius: 11px;
+}
+.buy-now:hover {
+  background-image: linear-gradient(to right, GOLD, DARKORANGE);
+  color: #fff;
+  text-decoration: none;
+}
+
+.carousel-indicators li {
+  background-color: none !important;
+  background-image: linear-gradient(to right, rgb(201, 193, 178), DIMGRAY);
+  height: 8px;
+  width: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  top: 70px;
+  border-radius: 8px;
+}
+.carousel-indicators .active {
+  background-image: linear-gradient(to right, GOLD, DARKORANGE);
+  width: 30px;
+}
+
+.card {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border: none;
+  box-shadow: 1px 1px 10px #e7dede;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+}
+.price {
+  padding: 10px;
+}
+.card-title {
+  font-size: 24px;
+  color: #1f1f1f;
+  font-weight: 500;
+}
+.see-all {
+  color: darkorange;
+}
+.see-all:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+.border {
+  width: 15%;
+  height: 10px;
+  background-image: linear-gradient(250deg, #ff9c35 0%, #ffd019 100%);
+  left: 42%;
+  position: relative;
+  border-radius: 10px;
+  top: 5px;
+}
+.shadow {
+  border: none;
+  box-shadow: 1px 1px 10px #e7dede;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 10px 10px 30px 10px;
+}
+.shadow:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+}
+
+.qutoes::before {
+  content: "❝";
+  position: relative;
+  font-size: 35px;
+}
+.qutoes::after {
+  content: "❞";
+  position: relative;
+  font-size: 35px;
+}
+
+.customer-box {
+  box-shadow: 5px 5px 20px #aaa6a6;
+  padding: 30px 15px;
+  border-left: 5px solid #ff9c35;
+  background-image: url("./images/dream-bg.png");
+  background-repeat: no-repeat;
+
+  background-position: right;
+}
+.customer-box img {
+  width: 200px;
+  height: 200px;
+}
+
+.bg-contact {
+  background-image: url("./images/biography-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+footer li {
+  list-style: none;
+}
+footer li a {
+  text-decoration: none;
+  color: #707070;
+}
+footer li a:hover {
+  text-decoration: none;
+  color: #ff9c35;
+}
+
+footer h2 {
+  color: #ff9c35;
+}
+
+.copyright {
+  border-top: 2px solid #ff9c35;
+  padding-top: 10px;
+}
